@@ -1,0 +1,24 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: gray;
+}
+#login {
+    float: right;
+    padding: .5em 2em;
+}
+#header {
+    
+}
+li {
+    display: inline;
+    padding: .5em 1.7em;
+}
+#feature {
+    height: 10em;
+    margin: 0 auto;
+}
+img {
+    background-size: contain;
+
+}
