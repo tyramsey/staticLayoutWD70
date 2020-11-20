@@ -1,24 +1,155 @@
 body {
     width: 100%;
     margin: 0 auto;
-    background-color: gray;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@font-face {
+    font-family: huluStyle;
+    src: url(/assets/Hulustyle/TTF/hulustyle-bold-webfont.ttf) format("truetype");
+  }
+  
+
+.wrapper {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10% 40% 40% 10%;
 }
 #login {
+    height: 0em;
     float: right;
     padding: .5em 2em;
+    color: white;
 }
+a :link a :visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
 #header {
-    
+    background-image: url(assets/filmCollageDarkened.png);
+    height: 45em;
+    margin: 0 auto;
+    opacity: 80%;
+    text-align: center;
 }
-li {
-    display: inline;
-    padding: .5em 1.7em;
+#bridge {
+    height: 10em;
+    background-color: #082530;
+    background-size: contain;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10% 80% 10%;
+}
+.img {
+    width: 30%;
+    height: 100%;
+    background-size: cover;
+    float: left;
+}
+.middleBridge {
+    width: 50%;
+    padding: 0em 0em 0em 0em;
+    float: left;
+    background-size: cover;
+}
+.rightBridge {
+    width: 20%;
+    display: table-cell;
+    vertical-align: center;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
 }
 #feature {
-    height: 10em;
-    margin: 0 auto;
+    margin-top: 10em;
+    height: 60em;
+    background-color: black;
 }
-img {
-    background-size: contain;
 
+h1 {
+    color: #1ce783;
+    font-size: 8em;
+    display: grid;
+    text-align: center;
+    padding: 0 0;
+}
+h2 {
+    color: white;
+    font-size: 2.75em;
+
+}
+
+h3 {
+    color: white;
+    font-size: 2em;
+}
+h4 {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 75;
+}
+h5 {
+    color: #1ce783;
+    font-size: .8em;
+    
+}
+.button1 {
+    height: 3em;
+    width: 15em;
+    background-color: white;
+    background-size: contain;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+} 
+.button1:hover {
+    opacity: 70%;
+}
+.button2 {
+    height: 3em;
+    width: 12em;
+    background-color: transparent;
+    color: white;
+    border: .1em solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin: auto;
+
+    text-align: center;
+}
+p {
+    color: white;
+    font-size: .75em;
+    font-weight: 50;
+}
+
+#terms {
+    text-align: center;
+}
+.box {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 50%;
+    color: white;
+    /* border: 1px solid white; */
+    text-align: center;
+    margin-top: 4em;
+}
+.img1 {
+    height: 90%;
+    width: 70%;
+    display: block;
+    display: inline;
+    vertical-align: center;
+}
+.featureText {
+    display: block;
+    width: 50%;
+    float: center;
+    margin: 0 auto;
+    text-align: center;
 }
