@@ -9,10 +9,7 @@ body {
   src: url(assets/Hulustyle/TTF/hulustyle-bold-webfont.ttf) format("truetype");
 }
 
-.wrapper {
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 10% 40% 40% 10%;
-}
+
 #login {
   height: 0em;
   float: right;
@@ -26,7 +23,7 @@ a :link a :visited {
 }
 #header {
   background-image: url(assets/homePageHulu.jpg);
-  height: 45em;
+  height: 46em;
   margin: 0 auto;
   opacity: 80%;
   text-align: center;
@@ -37,16 +34,22 @@ a :link a :visited {
 }
 #bridge {
   height: 10em;
-  background-color: #082530;
+  background-image: linear-gradient(
+    135deg,
+    #231437 0%,
+    #2c385e 50%,
+    #336e6b 100%
+  );
   background-size: contain;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 10% 80% 10%;
+  display: flexbox;
+  flex-direction: column;
 }
 .img {
-  width: 30%;
-  height: 100%;
+  height: 50%;
   background-size: cover;
   float: left;
+  margin-top: 2em;
+  margin-left: 1em;
 }
 .middleBridge {
   width: 50%;
@@ -65,7 +68,7 @@ ul {
   text-align: left;
 }
 #feature {
-  margin-top: 10em;
+  margin-top: 8em;
   height: 60em;
   background-color: black;
   position: relative;
@@ -129,10 +132,11 @@ p {
 #terms {
   text-align: center;
 }
-.featureShow {
-  display: block;
-  align-items: center;
+.featureShows {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .box {
   flex-direction: row;
@@ -142,8 +146,7 @@ p {
 .img1 {
   margin-top: 5em;
   margin-left: 2em;
-  height: 465px;
-  padding: 0.5em;
+  height: 385px;
 }
 .featureText {
   display: block;
