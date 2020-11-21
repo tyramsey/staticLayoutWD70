@@ -6,7 +6,7 @@ body {
 }
 @font-face {
   font-family: huluStyle;
-  src: url(/assets/Hulustyle/TTF/hulustyle-bold-webfont.ttf) format("truetype");
+  src: url(assets/Hulustyle/TTF/hulustyle-bold-webfont.ttf) format("truetype");
 }
 
 .wrapper {
@@ -133,7 +133,7 @@ p {
 }
 .img1 {
   margin-top: 5em;
-  margin-left: 1em;
+  margin-left: .5em;
   height: 475px;
   width: 275px;
   padding: 0.5em;
