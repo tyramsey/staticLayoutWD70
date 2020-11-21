@@ -25,11 +25,15 @@ a :link a :visited {
   text-decoration: none;
 }
 #header {
-  background-image: url(assets/filmCollageDarkened.png);
+  background-image: url(assets/homePageHulu.jpg);
   height: 45em;
   margin: 0 auto;
   opacity: 80%;
   text-align: center;
+}
+#logo {
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 #bridge {
   height: 10em;
@@ -64,12 +68,12 @@ ul {
   margin-top: 10em;
   height: 60em;
   background-color: black;
+  position: relative;
 }
 
 h1 {
   color: #1ce783;
   font-size: 8em;
-  display: grid;
   text-align: center;
   padding: 0 0;
 }
@@ -113,7 +117,6 @@ h5 {
   cursor: pointer;
   display: block;
   margin: auto;
-  margin: auto;
 
   text-align: center;
 }
@@ -126,16 +129,20 @@ p {
 #terms {
   text-align: center;
 }
+.featureShow {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
 .box {
-  display: flexbox;
-  flex-direction: row wrap;
-  float: left;
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: center;
 }
 .img1 {
   margin-top: 5em;
-  margin-left: .5em;
-  height: 475px;
-  width: 275px;
+  margin-left: 2em;
+  height: 465px;
   padding: 0.5em;
 }
 .featureText {
